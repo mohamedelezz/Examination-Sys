@@ -1,0 +1,99 @@
+main {
+  width: 99vw;
+  font-family: "Muli-Regular";
+  font-size: 16px;
+  /* border: 2px solid rgb(179, 159, 159); */
+  background-color: #f5f5f5f8;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: rgb(0, 0, 0);
+  /* border-radius: 10px; */
+}
+.progress {
+  border: 1px solid rgb(83, 93, 241);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.Result {
+  background-color: #492bce;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.h22 {
+  text-align: center;
+  background-color: rgb(179, 243, 106);
+  border: 1px solid rgb(18, 90, 245);
+  border-radius: 9px;
+}
+#h22 {
+  background-color: rgb(179, 243, 106);
+  border: 1px solid rgb(18, 90, 245);
+  border-radius: 9px;
+  padding: 2px;
+  color: rgb(138, 0, 0);
+}
+.Qustion {
+  /* border: 1px solid #d956dd; */
+  box-shadow: 3px 3px 3px rgb(165, 166, 172);
+  height: 70vh;
+  border-radius: 9px;
+}
+.marrk {
+  /* border: 2px solid #FFAB76; */
+  box-shadow: 3px 3px 3px rgb(165, 166, 172);
+  height: 70vh;
+  border-radius: 9px;
+  color: rgb(138, 0, 0);
+}
+.pre {
+  display: flex;
+  width: 80vw;
+  margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  border: 2px solid rgb(56, 55, 55);
+  padding: 5px 30px;
+  color: rgb(138, 0, 0);
+
+  /* padding-left: 16px;
+    padding-right: 16px; */
+  background-color: rgb(129, 245, 52);
+}
+button {
+  background-color: rgb(42, 42, 230);
+  color: white;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+.mark2 {
+  background-color: rgb(76, 241, 54);
+  color: black;
+}
+label,
+input {
+  margin: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+}
+h3:hover {
+  width: 86%;
+  margin-left: 7%;
+  background-color: rgba(29, 4, 173, 0.89);
+  color: white;
+}
+h3 {
+  border-radius: 10px;
+  background-color: rgba(63, 236, 63, 0.89);
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  cursor: pointer;
+  border: 1px solid rgb(146, 136, 136);
+}
+i {
+  margin-top: 1%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="home.css">
+    <script defer src="home.js"></script>
+    <style>
+        body {
+            background-color: rgb(168, 159, 159);
+        }
+
+        li,
+        button {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        main {
+            width: 70vw;
+            height: 60vh;
+            margin-left: 10%;
+            background-color: rgb(20, 255, 255);
+            color: rgb(0, 0, 0);
+            border: 2px solid red;
+            border-radius: 20px;
+            padding-left: 18px;
+            margin-top: 20vh;
+
+        }
+        button:hover{
+            padding: 9px;
+            
+            border-radius: 9px;
+            background-color: rgb(201, 201, 2);
+            color: rgb(0, 0, 0);
+            border: 3px solid rgb(39, 4, 165);
+        }
+        button {
+            margin-left: 45%;
+            padding: 9px;
+            border: 3px solid red;
+            border-radius: 9px;
+            background-color: rgb(16, 1, 99);
+            color: rgb(247, 243, 243);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Exam Instruction </h1>
+        <ul>
+            <li>Chick your Internet</li>
+            <li>All questions are compulsory.</li>
+            <li>Try to submit the paper in 4 minutes.</li>
+            <li>You are allowed to submit only once, make sure <br> that you have correctly attempted all the questions
+                before submission.</li>
+        </ul>
+        <button> Start Exam </button>
+    </main>
+
+
+    <script>
+        var btn = document.querySelector("button")
+        btn.addEventListener("click", function () {
+            location.replace("../exam-page/exam.html")
+        })
+setTimeout(() => {
+    location.replace("../exam-page/exam.html")
+}, 9000);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Results</title>
+    <style>
+        body {
+            background-image: url("pexels-andy-barbour-6684286.jpg");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+
+        main {
+
+            width: 47vw;
+            height: 40vh;
+            margin-top: 30vh;
+            margin-left: 25vw;
+            border: 2px solid rgba(235, 11, 255, 0.788);
+            border-radius: 20vh;
+            background-color: rgba(0, 252, 231, 0.5);
+        }
+
+        div {
+            text-align: center;
+            margin-top: 7%;
+        }
+
+        h3,
+        h2 {
+            font-size: 38px;
+            margin: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div>
+            <h2>
+
+            </h2>
+            <h3>
+
+            </h3>
+        </div>
+    </main>
+    <script>
+        var x = localStorage.getItem("myFinalResult")
+        var firstName = localStorage.getItem("FristName")
+        var lastName = localStorage.getItem('LastName')
+
+        document.querySelector("h2").innerHTML = `Congretulation ${firstName} ${lastName} Your Result  Is : `
+        if (x == null) {
+            x = 0
+        }
+        document.querySelector("h3").innerHTML = `( ${x}/100 ) `
+    </script>
+</body>
+
+</html>
