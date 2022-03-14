@@ -27,7 +27,7 @@ btn.addEventListener("click", function (event) {
                     localStorage.setItem("email", email.value)
                     localStorage.setItem("Password", password.value)
 
-                    window.location.href = '../sing_in/Sign-inH.html'
+                    window.location.href = '/sing_in/Sign-inH.html'
 
                 } else {
                     confirms.classList.add("conf")
