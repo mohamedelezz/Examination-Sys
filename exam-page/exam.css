@@ -22,16 +22,18 @@ main {
 
 .h22 {
   text-align: center;
-  background-color: rgb(179, 243, 106);
+  background-color: rgb(73 65 65);
   border: 1px solid rgb(18, 90, 245);
   border-radius: 9px;
+  color: beige;
 }
 #h22 {
-  background-color: rgb(179, 243, 106);
+  font-size: 30px;
+  background-color: rgb(73 65 65);
   border: 1px solid rgb(18, 90, 245);
   border-radius: 9px;
   padding: 2px;
-  color: rgb(138, 0, 0);
+  color: rgb(235, 222, 222);
 }
 .Qustion {
   /* border: 1px solid #d956dd; */
@@ -56,21 +58,22 @@ main {
 span {
   border: 2px solid rgb(56, 55, 55);
   padding: 5px 30px;
-  color: rgb(138, 0, 0);
+  /* color: rgb(138, 0, 0); */
+  color: rgb(255, 255, 255);
 
   /* padding-left: 16px;
     padding-right: 16px; */
   background-color: rgb(129, 245, 52);
 }
 button {
-  background-color: rgb(42, 42, 230);
+  background-color: rgb(40, 40, 179);
   color: white;
   border-radius: 20px;
   padding: 5px 25px;
 }
 .mark2 {
-  background-color: rgb(76, 241, 54);
-  color: black;
+  background-color: rgb(212, 17, 17);
+  color: rgb(223, 215, 215);
 }
 label,
 input {
@@ -87,9 +90,10 @@ h3:hover {
 }
 h3 {
   border-radius: 10px;
-  background-color: rgba(63, 236, 63, 0.89);
+  background-color: rgb(173, 21, 21);
   text-align: center;
   width: 80%;
+  color: rgb(239, 224, 243);
   margin-left: 10%;
   cursor: pointer;
   border: 1px solid rgb(146, 136, 136);

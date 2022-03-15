@@ -27,8 +27,8 @@ function Choice(A, B, C, D) {
   this.C = C
   this.D = D
 }
-var choice1 = new Choice("Red", "Green", "Blue", "Black");
-var choice2 = new Choice('NewYork', 'Sharm-ElShaikh', "Paris", "Dubai");
+var choice1 = new Choice("New York", "Boston", "Chicago", "Washington");
+var choice2 = new Choice('4', '6', "8", "10");
 var choice3 = new Choice("mouth", "stomach", "twelve", "esophagus");
 var choice4 = new Choice("two", "three", "four", "five");
 var choice5 = new Choice("Mansoura", "Cairo", "Riyadh", "Baghdad");
@@ -46,10 +46,10 @@ function arrQuestion(question, choice, correctAnswer) {
   questionsArray.push(arrQuestion)
 }
 
-arrQuestion("What is your favorite color?", choice1, "Black")
-arrQuestion("What is your favorite City?", choice2, "Dubai")
+arrQuestion("What is The Capital of USA?", choice1, "Washington")
+arrQuestion("What is the result of multiplication 2*2?", choice2, "4")
 arrQuestion('Where does the digestion of carbohydrates begin?', choice3, "mouth")
-arrQuestion('What is the colors of flag of Egypt?', choice4, "three")
+arrQuestion('What are the colors of the Egyptian flag?', choice4, "three")
 arrQuestion('What is The Capital of Egypt?', choice5, "Cairo")
 
 console.log("('Dear Constructor') The Correct Answer is (Black), (Dubai), (mouth), (three), (Cairo)");
@@ -177,7 +177,7 @@ var i = 0;
     i = 1;
     var progress = document.getElementById("progress");
     var width = 1;
-    var id = setInterval(frame, 1000);
+    var id = setInterval(frame, 4000);
     function frame() {
       if (width >= 100) {
         location.replace("../FinalResults/finalResult.html");
